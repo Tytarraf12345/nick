@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>My Website</header>
+    <section>
+        <nav>
+            <h3>Nav</h3>
+            <a href="index.html">Home</a>
+            <a href="HeatherSanchez.html">Heather Sanchez</a>
+            <a href="HelenaDarah.html">Helena Darah</a>
+            <a href="DavidMalolepszy.html">David Malolepszy</a>
+            <a href="LaurieAullsandRachelMolnar.html">Laurie Aulls and Rachel Molnar</a>
+            <a href="JenniferMcDonald.html">Jennifer McDonald</a>
+        </nav>
+        <article>
+            <h1>Contact Us</h1>
+            <form>
+                <!-- inline by default -->
+                <label for="first">First</label>
+                <input placeholder="First Name" name="first" type="text" required>
+                <label for="last">Last</label>
+                <input name="last" type="text">
+                <label for=email>Email</label>
+                <input name="email" type="email">
+                <label for=gender>Gender</label>
+                <input type=radio name=gender value=female>Female
+                <input type=radio name=gender value=male>Male
+                <input type=radio name=gender value=other>Other
+                <label for=age>Age</label>
+                <input type=number step=1 name=age>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"
+                       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                       required>
+                <label>How do you prefer to be contacted?</label>
+                <select name=contact>
+                    <option value=phone>Phone</option>
+                    <option value=email>Email</option>
+                </select>
+                <input type=reset>
+                <input type=submit>
+            </form>
+        </article>
+    </section>
+    <footer>fsddfsa</footer>
+</body>
+</html>
